@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let year = prompt('Введите год в формате "yyyy"', '');
+
+        let check1 = 400;
+        let check2 = 4;
+
+        result = year % check1 == 0 || year % check2 == 0 ? 'Количество дней 366': 'Количество дней 365';
+
+        alert(result)
+    </script>
+</body>
+</html>
